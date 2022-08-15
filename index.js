@@ -8,7 +8,7 @@ function towerBuilder(nFloors) {
     resultFloors.push(str);
     console.log(str, str.length);
   }
-  console.log(resultFloors);
+  return resultFloors;
 }
 
 towerBuilder(3);
